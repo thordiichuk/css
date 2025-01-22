@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie8</title>
+    <link rel="stylesheet" href="hord.css">
+</head>
+<!---Tetiana Hordiichuk 06.12.25-->
+<body>
+    <h1>Wewnętrzny arkusz stylów</h1>
+
+    <ol type="1">
+        <li><h1>Gdzie jest wstawiany,</h1>
+            <p>Wstawia się zawsze w części nagłówkowej dokumentu (pomiędzy znacznikami <head> a
+            </head>). Można go zastosować, gdy elementy które pragniemy poddać formatowaniu,
+            występują wielokrotnie na stronie i wszystkim chcemy nadać takie same atrybuty (inne niż
+            domyślne).</p>
+        </li>
+
+        <li><h1>Składnia teoretyczna (w ramce, konieczne wcięcia),</h1>
+            <div class="div8_1">
+                <xmp>
+<head>
+       (...)
+    <style type="text/css">
+    /* <![CDATA[ */
+        selektor1 { cecha: wartość; cecha2: wartość2... }
+        selektor2 { cecha: wartość; cecha2: wartość2... }
+        (...)
+    /* ]]> */
+    </style>
+        (...)
+</head>                
+                </xmp>
+            </div>
+        </li>
+        
+        <li><h1>Jakie mogą być selektory</h1>
+            <p>Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (tytuł), td (komórka
+                tabeli) i inne. To właśnie elementom, które znajdują się w kodzie źródłowym, pomiędzy tymi
+                znacznikami, nadajemy atrybuty formatowania opisane w arkuszu.</p>
+        </li>
+
+        <li><h1>Jakie mogą być cechy i wartości.</h1>
+            <p>Jako "cecha" (w deklaracji stylu - powyżej) należy wpisać o jakie konkretnie atrybuty
+                formatowania nam chodzi (opisane w kolejnych rozdziałach).</p>
+            <p>Natomiast jako wyraz "wartość" wpisujemy dokładną wartość atrybutu.
+                Zwróć uwagę, że jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy
+                rozdzielone średnikami.</p>
+        </li>
+    </ol>
+    
+</body>
+</html>

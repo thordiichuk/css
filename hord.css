@@ -1,0 +1,75 @@
+
+/*Tetiana Hordiichuk 06.12.25*/
+
+/*index*/
+.h04{
+    display: flex;
+    justify-content: center;
+}
+
+.linki{
+    text-align: center;
+    width: 250px;
+    height: auto;
+}
+
+/*zadanie3*/
+.tab_z3{
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+
+.text3{
+    text-align: left;
+}
+
+.tr, td{
+    border: 1px solid black;
+    padding: 0 8px;
+}
+
+.p3_1{
+    font-size: 30px;
+}
+
+.p3_2{
+    font-size: 20px;
+}
+
+
+/*zadanie 4, 7, 8,  9, 16*/
+.div4_1, .div7_1, .div8_1, .div9_1, .div16_1{
+    border: 1px solid black;
+    width: 90%;
+    height: auto;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+/*zadanie4*/
+.div4_1{
+    font-size: 10px;
+}
+
+
+/*zadanie7*/
+
+ol{
+    font-family: Arial, Helvetica, sans-serif;
+}    
+
+
+/*zadanie14*/
+.table14_1, .table16_1{
+    font-size: 17px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+    text-align: left;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie9</title>
+    <link rel="stylesheet" href="hord.css">
+</head>
+<!---Tetiana Hordiichuk 06.12.25-->
+<body>
+
+    <h1>Opis stylu zewnętrznego.</h1>
+
+    <ol type="1">
+        <li><h1>Składnia teoretyczna</h1>
+            <div class="div9_1">
+                <xmp>
+<head>
+    (...)
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+    (...)
+</head>                    
+                </xmp>
+            </div>
+                <p>gdzie "style.css" jest zewnętrznym arkuszem stylów. Natomiast znaki (...) oznaczają inne
+                    polecenia, które zwykle pojawiają się w nagłówku dokumentu, np. deklaracja strony kodowej.</p>
+            
+        </li>
+
+        <li><h1>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+            ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</h1>
+            <p>Wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy
+                znacznikami <head> a </head>), </p>
+        </li>
+
+        <li><h1>Jak jest najprostsza forma wstawiania stylu zewnętrznego</h1>
+            <div class="div9_1">
+                <xmp>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+                </xmp>
+            </div>
+        </li>
+
+        <li><h1>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+            musi być zachowana przy większej ilości dołączanych styli?</h1>
+            <p>Można dołączyć <b><u>dowolną liczbę</u></b> zewnętrznych arkuszy stylów
+                - każdy jako osobny element &lt;link rel="Stylesheet" /&gt;.</p>
+        </li>
+
+        <li><h1>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+            są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</h1>
+            <p>W przypadku <b><u>konfliktów</u></b>, ważniejsze będą deklaracje z arkusza dołączonego później.</p>
+        </li>
+
+        <li><h1>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1>
+        <p>Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i
+            edytowania wystarczy zwykły edytor tekst</p>
+        </li>
+
+        <li><h1>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h1>
+            <pi>Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i
+                edytowania można się posłużyć specjalnym edytorem CSS</pi>
+        </li>
+
+        <li><h1>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</h1>
+            <p>Plik będący zewnętrznym arkuszem stylów musi mieć
+                rozszerzenie *.<b>css</b></p>
+        </li>
+
+        <li><h1>Jakie są zalety zewnętrznego arkusza styli?</h1>
+            <ol type="1">
+                <li>wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne cechy.</li>
+                <li>jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na wszystkich
+                    stronach, możemy to zrobić, modyfikując jedynie zewnętrzny arkusz stylów, bez
+                    konieczności zmiany każdej strony osobno. </li>
+            </ol>
+        </li>
+
+        <li><h1>Uwagi na temat pisania w CSS. </h1>
+            <ul type="disk">
+                <li>Znacznik LINK może znajdować się tylko i wyłącznie w nagłówku dokumentu.
+                    (sekcja <b>head</b>)</li>
+                <li>Można dołączyć <b><u>dowolną liczbę</u></b> zewnętrznych arkuszy stylów
+                    - każdy jako osobny element &lt;link rel="Stylesheet" /&gt;. </li>
+                <li>W przypadku <b><u>konfliktów</u></b>, ważniejsze będą deklaracje z arkusza dołączonego później.</li>
+                <li>Zewnętrzny arkusz stylów jest on zwykłym plikiem tekstowym. Do tworzenia i
+                    edytowania wystarczy zwykły edytor tekst.</li>
+                <li>Można się posłużyć specjalnym <b>edytorem CSS</b>.</li>
+                <li>Należy jedynie pamiętać, że plik będący zewnętrznym arkuszem stylów musi mieć
+                    rozszerzenie *.<b>css</b></li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
