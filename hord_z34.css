@@ -1,0 +1,10 @@
+/*Tetiana Hordiichuk 1Pg2*/
+
+h3{
+    width: 400pt;
+    height: 1.5cm;
+    background-color: rgb(70, 130, 180);
+    border:2px inset purple;
+    font-size: 12px;
+    margin-left: 20px;
+}

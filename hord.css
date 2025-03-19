@@ -11,6 +11,7 @@
     text-align: center;
     width: 250px;
     height: auto;
+    margin-bottom: 15px;
 }
 
 /*zadanie3*/
@@ -62,7 +63,7 @@ ol{
 
 
 /*zadanie14*/
-.table14_1, .table16_1{
+.table14_1, .table16_1,.table32_1, .table24_1{
     font-size: 17px;
     border-collapse: collapse;
     border: 1px solid black;
