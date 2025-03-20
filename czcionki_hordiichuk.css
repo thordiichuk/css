@@ -1,0 +1,76 @@
+.tytul1, .tytul2{
+    color: red;
+    font-size: 1cm;
+    text-align: right;
+}
+
+.tytul1_2, .tytul2_2{
+    color: lightskyblue;
+    text-align: right;
+}
+
+.tytul2, .tytul2_2{
+    text-align: center;
+}
+
+#zdanie11, #zdanie12, #zdanie13{
+    font-family: serif;
+    line-height: 2cm;
+    word-spacing: 10px;
+    letter-spacing: 2ex;
+    text-indent: 28mm;
+    text-align: right;
+}
+
+#zdanie11{
+    color: #4682B4;
+    font-style: italic;
+    font-weight: 500;
+    font-size: small;
+}
+
+#zdanie12{
+    color: #87CEFA;
+    font-weight: 600;
+    font-size: medium;
+    text-decoration: overline;
+    font-variant: small-caps;
+}
+
+#zdanie13{
+    color: #4169E1;
+    font-weight: 700;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+#zdanie21, #zdanie22, #zdanie23{
+    font-family: sans-serif;
+    line-height: 20mm;
+    word-spacing: 10pt;
+    letter-spacing: 0.25cm;
+    text-indent: 3cm;
+    text-align: center;
+}
+
+#zdanie21{
+    color: #808080;
+    font-weight: 300;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+#zdanie22{
+    color: #696969;
+    font-weight: 600;
+    font-size: 0.1in;
+    text-decoration: line-through;
+    font-variant: small-caps;
+}
+
+#zdanie23{
+    color: #d3d3d3;
+    font-weight: 800;
+    font-size: 1em;
+    text-transform: capitalize;
+}

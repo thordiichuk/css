@@ -14,6 +14,11 @@
     margin-bottom: 15px;
 }
 
+#z25, #z24, #kodz25{
+    color: red;
+    font-weight: bold;
+}
+
 /*zadanie3*/
 .tab_z3{
     text-align: center;

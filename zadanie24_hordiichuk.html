@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie24</title>
+    <link rel="stylesheet" href="hord.css">
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <ol type="1">
+        <li>
+            <h1>Jakie standardowo dostępne są czcionki w systemie Windows</h1>
+            <ul type="square">
+                <li>Times New Roman (szeryfowa)</li>
+                <li>Arial (bezszeryfowa)</li>
+                <li>Courier New (monotypiczna)</li>
+            </ul>
+        </li>
+
+        <li>
+            <h1>Jakich czcionek dodatkowo dostarcza Internet Explorerem</h1>
+            <ul style="list-style-type:circle">
+                <li>Verdana</li>
+                <li>Tahoma</li>
+                <li>Trebuchet MS</li>
+                <li>Georgia</li>
+            </ul>
+        </li>
+
+        <li>
+            <h1>Wymień rodziny ogólne</h1>
+            <ul style="list-style-type:disc">
+                <li>serif - <u>czcionka szeryfowa</u> (końcówki znaków posiadają "ozdobniki"), np.: 'Times 
+                    New Roman', Georgia, Garamond, Bodoni </li>
+                <li>sans-serif - <u> czcionka bezszeryfowa</u> (końcówki znaków są proste), np.: Arial, Verdana, 
+                    'Trebuchet MS', Helvetica, Univers, Futura </li>
+                <li>monospace - <u>czcionka o stałej szerokości znaków</u> - monotypiczna (wygląda, jak 
+                    pisana na maszynie), np.: Courier, 'Courier New' </li>
+                <li>cursive - <u>czcionka mająca pewne cechy pochyłej</u> (wygląda, jak pisana ręcznie) </li>
+                <li>fantasy - <u>czcionka fantazyjna</u> (dekoracyjna) </li>
+            </ul>
+        </li>
+
+        <li>
+            <h1>Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy</h1>
+            Rodziny ogólne wykorzystuje się jako ostatnia alternatywa - jeśli użytkownik nie będzie posiadał żadnej czcionki, której nazwę wpisaliśmy wprost. Dlatego zwykle rodzinę ogólną podaje się na samym końcu listy nazw czcionek, np.: 
+        </li>
+
+        <li>
+            <h1>Rodzaje wyrównanie tekstu</h1>
+            <ol type="1">
+                <li>Do prawej (kolor żółty) </li>
+                <li>Do lewej (kolor pomarańczowy) </li>
+                <li>Wyśrodkowane (kolor różowy) </li>
+                <li>Wyjustowane (kolor zielony) </li>
+            </ol>
+        </li>
+        
+        <li>
+            <h1>Kolor tekstu</h1>
+            Składnia reguły: <br>
+            selektor {color: kolor;} <br><br>
+            Wyraz selektor ma zastosowanie do wszystkich elementów. <br>
+            Natomiast jako kolor należy podać definicję koloru. <br>
+            Dzięki temu poleceniu można ustalić dowolny kolor tekstu.
+        </li>
+        
+        <li>
+            <h1>Dekoracja tekstu</h1>
+            Tekst można „udekorować” w sposób następujący:
+            <ol type="a">
+                <li>Podkreślić - (underline)</li>
+                <li>Przekreślić - (line-through) </li>
+                <li>Nadkreślić - (overline) </li>
+                <li>Można dodać migotanie tekstu (tylko Netspace/Mozilla/Opera) – (blink) </li>
+            </ol> <br>
+                Składnia reguły: <br>
+                selektor {text-decoration: dekoracja;} <br><br>
+
+                Wyraz selektor ma zastosowanie do wszystkich elementów. <br> <br>
+
+                <u>decoracja:</u>
+                <ul style="list-style: none;">
+                    <li>"none" - bez zmian czyli tekst bez podkreśleń, przekreśleń itp.  </li>
+                    <li>"underline" - podkreślenie                   </li>
+                    <li>"line-through" - przekreślenie                    </li>
+                    <li>"overline" - nadkreślenie </li>
+                </ul>
+           
+        </li>
+        
+        <li>
+            <h1>Warianty czcionek </h1>
+            <ul style="list-style-type:disc">
+                <li>normal - czcionka normalna (podstawowa) </li>
+                <li>small-caps - kapitaliki</li>
+            </ul>
+        </li>
+        
+        <li>
+            <h1>Pogrubienie czcionek</h1>
+            <ul style="list-style-type:disc">
+                <li>normal - czcionka normalna (podstawowa)</li>
+                <li>bold - czcionka pogrubiona</li>
+                <li>100, 200, 300, 400 (odpowiednik "normal"), 500, 600, 700 (odpowiednik "bold"), 800, 
+                    900 - każdy następny numer wskazuje wagę czcionki przynajmniej tak samo 
+                    wytłuszczonej jak dla poprzedniej wartości w sekwencji</li>
+            </ul>
+        </li>
+        
+        <li>
+            <h1>Rozmiar czcionek</h1>
+            <table class="table24_1">
+                <tr>
+                    <td>
+                    <ul style="list-style-type:disc">
+                        <li>xx-small  - najmniejsza</li>
+                        <li>x-small  - mniejsza</li>
+                        <li>small   - mała </li>
+                        <li>medium  - średnia</li>
+                        <li>large   - duża </li>
+                        <li>x-large   - większa </li>
+                        <li>xx-large  - największa</li>
+                    </ul></td>
+                    <td>
+                        Z użyciem różnych jednostek
+                        <ul style="list-style-type:disc">
+                            <li>rozmiar 0.5cm </li>
+                            <li>rozmiar 4mm </li>
+                            <li>rozmiar 0.25in</li>
+                            <li>rozmiar 10pt </li>
+                            <li>rozmiar 1pc </li>
+                            <li>rozmiar 15px </li>
+                            <li>rozmiar 1em</li>
+                            <li>rozmiar 2ex </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </li>
+        
+        <li>
+            <h1>Transformacja tekstu</h1>
+            Składnia reguły: <br>
+            selektor {text-transform: transformacja;} <br> <br>
+            Wyraz selektor ma zastosowanie do wszystkich elementów. <br><br>
+            <u>transformacja:</u>
+
+            <ul style="list-style: none;">
+                <li>"none" - bez zmian </li>
+                <li>"capitalize" - zamiana pierwszych liter wszystkich wyrazów na wielkie</li>
+                <li>"uppercase" - zamiana wszystkich liter na wielkie </li>
+                <li>"lowercase" - zamiana wszystkich liter na małe </li>
+            </ul>
+        </li>
+        
+        <li>
+            <h1>Wcięcia tekstu</h1>
+            Składnia reguły: <br>
+            selektor {text-indent: wcięcie;} <br><br>
+            Wyraz selektor ma zastosowanie do elementów blokowych. <br> <br>
+
+            <u>wcięcie: </u>
+            <ul style="list-style: none;">
+                <li>należy podać konkretną wielkość, używając jednostek miary:                 </li>
+                <li>piksele - px</li>
+                <li>punkty edytorskie - pt                </li>
+                <li> wysokość litery "x" -ex                </li>
+                <li>wysokość aktualnej czcionki  - em                </li>
+                <li>centymetry lub milimetry - cm,mm</li>
+                <li>części dziesiętne centymetra pisane z kropką np.: 0.5cm </li>
+                <li>cale - in (1in=2.54cm) </li>
+                <li>procent wielkości nadrzędnej  -%</li>
+            </ul>
+        </li>
+        
+        <li>
+            <h1>Odstęp miedzy wierszami </h1>
+            Składnia reguły <br> 
+             selektor {line-height: odstęp;}  <br><br>
+            Wyraz selektor ma zastosowanie do wszystkich elementów. <br><br>
+
+            <u>odstęp</u>
+            <ul style="list-style: none;">
+                <li>należy podać konkretną wielkość, używając jednostek miary:                 </li>
+                <li>piksele - px</li>
+                <li>punkty edytorskie - pt                </li>
+                <li> wysokość litery "x" -ex                </li>
+                <li>wysokość aktualnej czcionki  - em                </li>
+                <li>centymetry lub milimetry - cm,mm</li>
+                <li>części dziesiętne centymetra pisane z kropką np.: 0.5cm </li>
+                <li>cale - in (1in=2.54cm) </li>
+                <li>procent wielkości nadrzędnej  -%</li>
+                <li>"normal" - przywraca wartość domyślną </li>
+            </ul>
+        </li>
+        
+        <li>
+            <h1>Odstęp między wyrazami</h1>
+            Składnia reguły: <br>
+            selektor {word-spacing: odstęp;} <br><br>
+            Wyraz selektor ma zastosowanie do wszystkich elementów. <br><br>
+            <u>odstęp</u>
+            <ul style="list-style: none;">
+                <li>należy podać konkretną wielkość, używając jednostek miary:                 </li>
+                <li>piksele - px</li>
+                <li>punkty edytorskie - pt                </li>
+                <li> wysokość litery "x" -ex                </li>
+                <li>wysokość aktualnej czcionki  - em                </li>
+                <li>centymetry lub milimetry - cm,mm</li>
+                <li>części dziesiętne centymetra pisane z kropką np.: 0.5cm </li>
+                <li>cale - in (1in=2.54cm) </li>
+                <li>procent wielkości nadrzędnej  -%</li>
+                <li>"normal" - przywraca wartość domyślną </li>
+            </ul>
+        </li>
+        
+        <li>
+            <h1>Odstęp między literami </h1>
+            Składnia reguły: <br>
+            selektor {letter-spacing: odstęp;} <br><br>
+            Wyraz selektor ma zastosowanie do wszystkich elementów. <br><br>
+            <u>odstęp</u>
+            <ul style="list-style: none;">
+                <li>należy podać konkretną wielkość, używając jednostek miary:                 </li>
+                <li>piksele - px</li>
+                <li>punkty edytorskie - pt                </li>
+                <li> wysokość litery "x" -ex                </li>
+                <li>wysokość aktualnej czcionki  - em                </li>
+                <li>centymetry lub milimetry - cm,mm</li>
+                <li>części dziesiętne centymetra pisane z kropką np.: 0.5cm </li>
+                <li>cale - in (1in=2.54cm) </li>
+                <li>procent wielkości nadrzędnej  -%</li>
+                <li>"normal" - przywraca wartość domyślną </li>
+            </ul>
+        </li>
+        
+        <li>
+            <h1>Łączenie właściwości czcionek i tekstu </h1>
+            Prawidłowa kolejność wartości atrybutów:  
+            <ol type="1">
+                <li> font-style </li>
+                <li>font-variant </li>
+                <li>font-weight </li>
+                <li>font-size (po tym ukośnik „/”; bezpośrednio przed „line-height”) </li>
+                <li>line-height </li>
+                <li>font-family </li>
+            </ol>
+
+            Składnia reguły: <br>
+            selektor {font: wartości atrybutów;}  <br><br>
+            Wyraz selektor ma zastosowanie do wszystkich elementów <br><br>
+            Jako wartości atrybutów wpisać należy zgodnie z podaną poniżej kolejnością, oddzielając 
+            spacjami, konkretne wartości, które opisują poszczególne atrybuty czcionek i tekstu. 
+            Można niektóre pominąć. <br><br>
+            <ul style="list-style: none;">
+                <li>wartości atrybutów: 
+                </li>
+                <li>font-style 
+                </li>
+                <li>font-variant 
+                </li>
+                <li>font-weight 
+                </li>
+                <li>font-size 
+                </li>
+                <li>line-height 
+                </li>
+                <li>font-family 
+                </li>
+            </ul><br><br>
+            Dzięki temu poleceniu można w jednym miejscu zebrać atrybuty dotyczące czcionek i 
+tekstu. Pomiędzy font-size, a line-height należy wstawić ukośnik (bezpośrednio przed 
+line-height).
+        </li>
+    </ol>
+</body>
+</html>
