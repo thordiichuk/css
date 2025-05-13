@@ -1,0 +1,20 @@
+div{
+    width: 607px;
+    background-color: green;
+}
+
+div#blok1_hordiichuk:hover{
+    background-color: red;
+    font-size: 20mm;
+}
+div#blok2_hordiichuk:hover{
+    background-color: gold;
+    font-size: 20mm;
+}
+div#blok3_hordiichuk:hover{
+    background-color: yellow;
+    font-size: 20mm;
+}
+
+/*hover; → zmiany pewnych elementów po najechaniu na nie urządzeniem wskazującym
+    Tetiana Hordiichuk*/

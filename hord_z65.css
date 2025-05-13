@@ -1,0 +1,40 @@
+body{
+    background-color: silver;
+}
+
+#pierwszy_hordiichuk{
+ width: 728pt;
+ margin-left: auto;
+ margin-right: auto;
+ background-color: lightgreen;
+ border-radius: 14mm;
+ border: 3pt solid rgb(0, 0, 0);
+ padding: 20px 50px;
+}
+
+#drugi_hordiichuk{
+    width: 928pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    border-radius: 17mm;
+    border: 5pt solid rgb(24, 0, 130);
+    padding: 20px 50px;
+}
+
+#trzeci_hordiichuk{
+    width: 1028pt;
+    background-color: pink;
+    border-radius: 8mm;
+    border: 7pt solid violet;
+    padding: 20px 50px;
+}
+
+p{
+    font-size: 11pt;
+}
+
+div p:first-child{
+    font-size:7mm;
+    font-style:italic;
+}

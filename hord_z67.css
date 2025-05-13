@@ -1,0 +1,44 @@
+#p1::first-letter{
+    font-size: 111pt;
+    color: orange;
+}
+
+#p1{
+    font-size: 22pt;
+    color: turquoise;
+}
+
+#p2::first-letter{
+    font-size: 111pt;
+    color: skyblue;
+}
+
+#p2{
+    font-size: 23pt;
+    color: turquoise;
+}
+
+h1{
+    color: darkblue;
+    font-size: 35pt;
+}
+
+h1::first-letter{
+    color: silver;
+    font-size: 110pt;
+}
+
+#p3{
+    font-size: 22pt;
+    color: turquoise;
+}
+
+#p3::first-letter{
+    font-size: 111pt;
+    color: red;
+}
+
+#p3::first-line{
+    color: red;
+    font-weight: 600;
+}

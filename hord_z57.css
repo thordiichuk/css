@@ -1,0 +1,15 @@
+*{
+    font-size: 37pt;
+    color: red;
+    background-color: silver;
+}
+
+p.klasa_nieuniwersalna_hordiichuk{
+    font-size: 35pt;
+    color: green;
+}
+
+.klasa_uniwersalna_hordiichuk{
+    font-size: 21pt;
+    color: green;
+}

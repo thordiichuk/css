@@ -1,0 +1,14 @@
+div{
+    font-size: 2cm;
+    color: red;
+}
+
+A 
+{font-size: 18pt;
+text-decoration: none;  /*usuwa wszystkie dekoracje tekstu*/}
+A:link {color: blue;}
+
+A:visited {color: green;}
+A:hover 
+{color: red;
+text-decoration: underline; /*dodaje dekoracje podkreślenia*/}

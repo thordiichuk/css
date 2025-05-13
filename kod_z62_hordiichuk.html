@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie62</title>
+</head>
+<body>
+    <h1>KOD HTML</h1>
+    <textarea cols="95" rows="26">
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Zadanie62</title>
+            <link rel="stylesheet" href="hord_z62.css">
+        </head>
+        <body>
+            <p>tekst bez lang<br>
+            <u>Uwaga1:</u> <br> Język CSS dopuszcza stosowanie zarówno dużych, jak i małych liter. 
+            Poprawnymi nazwami atrybutu są background, backGROUND oraz BACKground.<br>
+            <u>Uwaga2:</u> <br> Wstawienie białych znaków (spacje, tabulacje, znaki nowej linii) w arkuszu CSS nie ma 
+            wpływu na jego działanie.
+            </p>
+            <p lang="pl"> polski land <br> CSS - Kaskadowe Arkusze Stylów (z ang. Cascading Style Sheets) jest to specjalny język 
+                stworzony w celu elastycznego zarządzania sposobem formatowania (wyglądem) elementów 
+                znajdujących się na stronach WWW.</p>
+            <p lang="en"> angielski land <br> CSS - Cascading Style Sheets is a special language 
+                created in order to flexibly manage the way formatting (appearance) of elements 
+                found on Web pages.</p>
+        </body>
+        </html>
+    </textarea>
+    
+    <h1>KOD HTML</h1>
+    <textarea cols="95" rows="20">
+p
+{
+font-size:7mm;
+color:rgb(255, 165, 0);
+text-shadow: 1px 2px 4px black;
+}
+p:lang(pl)
+{
+font-size:8mm;
+color:rgb(135, 206, 235);
+}
+p:lang(en)
+{
+font-size:12mm;
+color: rgb(4, 228, 216);
+}
+body{
+    background-color: silver;
+}
+    </textarea>
+</body>
+</html>
