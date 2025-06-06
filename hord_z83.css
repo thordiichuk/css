@@ -1,0 +1,10 @@
+/*Hordiichuk Tetiana 1P g2*/
+selektor { width: 1000px;
+    margin-left: auto; /* wyśrodkowanie */
+    margin-right: auto; 
+   }
+
+div.loremipsum{
+    text-align: center;
+    background-color: aqua;
+}
